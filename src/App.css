@@ -1,0 +1,104 @@
+* {
+  font-family: "poppins", "sans-serif";
+}
+.mainContainer {
+  display: grid;
+  justify-content: center;
+}
+.rangeSlider {
+  display: grid;
+  width: 50vw;
+  justify-content: center;
+  position: relative;
+}
+h1 {
+  width: 50vw;
+  font-size: 50px;
+  text-align: center;
+}
+.generatedPwdContainer {
+  border: 2px solid gray;
+  margin: 1.2rem 0;
+  border-radius: 10px;
+}
+#generatedPwdField {
+  width: 45vw;
+  padding: 0.3rem;
+  margin: 0.3rem 0;
+  font-size: 21px;
+  border: none;
+  outline: none;
+}
+.fa-copy {
+  font-size: 25px;
+  margin: 0 0.5rem;
+}
+.fa-copy:hover {
+  cursor: pointer;
+}
+#rangeVal {
+  width: 50vw;
+  justify-content: center;
+}
+#rangeVal:hover {
+  cursor: pointer;
+}
+.hoverVal {
+  display: grid;
+  position: absolute;
+  top: -1.3rem;
+}
+#capital,
+#small,
+#number,
+#special,
+#maxSecure,
+#extraSpcl {
+  transform: scale(1.5);
+}
+label {
+  font-size: 19px;
+  margin: 0 0.3rem;
+}
+.inputContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+}
+.inputTypes {
+  margin: 0.5rem;
+}
+.inputTypes input:hover,
+.inputTypes label:hover {
+  cursor: pointer;
+}
+form {
+  display: grid;
+}
+button {
+  justify-self: center;
+  font-size: 24px;
+  padding: 0.7rem 1.3rem;
+  margin: 1.5rem;
+  border: none;
+  border-radius: 24px;
+}
+button:hover {
+  cursor: pointer;
+}
+.fa-toggle-on {
+  display: none;
+}
+.fa-toggle-off {
+  display: grid;
+}
+.fa-toggle-on,
+.fa-toggle-off {
+  text-align: right;
+  font-size: 30px;
+  margin: 2rem 4rem;
+}
+.fa-toggle-on:hover,
+.fa-toggle-off:hover {
+  cursor: pointer;
+}
